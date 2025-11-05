@@ -1,0 +1,16 @@
+GET  http://localhost:4004/insurance-App/Customers(id=5)
+Authorization: Basic bmFra2FjaGFyYW4wNEBnbWFpbC5jb206Y2hhcmFuQDAwNg==
+Content-Type: application/json
+Accept: application/json
+
+
+### 
+PATCH http://localhost:4004/insurance-App/Customers(id=3)
+Authorization: Basic bmFra2FjaGFyYW4wNEBnbWFpbC5jb206Y2hhcmFuQDAwNg==
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id":3,
+  "firstName":"Kiran"
+}
